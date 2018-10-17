@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="348444ab-c69f-4f29-86d5-31824e0afcdc" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../madrys_code/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/.idea/ALI-conditional.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/.idea/markdown-navigator.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/.idea/markdown-navigator/profiles_settings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/ALI_experiment.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/ali/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/ali/algorithms.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/ali/bin/train_ali.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/ali/bricks.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/ali/conditional_bricks.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/ali/datasets.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/ali/graphing.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/ali/interface.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/ali/mixture_viz.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/ali/streams.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/ali/utils.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/ali_conditional_celeba.tar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/celeba_result/ali_conditional_celeba.tar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/celeba_result/ali_conditional_celeba1.tar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/celeba_result/ali_conditional_celeba2.tar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/celeba_result/celeba_LOG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/celeba_result/out.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/celeba_result/out1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/celeba_result/out2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/celeba_result/sample.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/crs_result/crs_LOG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/experiments/ali_celeba.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/experiments/ali_celeba_conditional.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/experiments/ali_cifar10.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/experiments/ali_conditional_celeba.tar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/experiments/ali_mixture.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/experiments/ali_svhn.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/experiments/ali_tiny_imagenet.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/experiments/gan_mixture.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/experiments/semi_supervised_svhn.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/legacy/utils/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/legacy/utils/samplecheckpoint.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/legacy/wrapper/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/legacy/wrapper/interface.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/adversarially_learned_inference.tex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/bibliography.bib" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/celeba_conditional_sequence.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/celeba_interpolations.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/celeba_reconstructions.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/celeba_samples.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/cifar10_reconstructions.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/cifar10_samples.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/fancyhdr.sty" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/iclr2017_conference.bst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/iclr2017_conference.sty" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/mixture_plot.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/natbib.sty" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/svhn_reconstructions.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/svhn_samples.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/tiny_imagenet_reconstructions.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/paper/tiny_imagenet_samples.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/reconstruction12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/reconstruction17.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/reconstruction5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/reconstruction78.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/scripts/generate_mixture_plots" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/scripts/generate_spiral_plots" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/scripts/interpolate" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/scripts/interpolate_c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/scripts/preprocess_representations" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/scripts/reconstruct" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/scripts/reconstruct_c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/scripts/sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/scripts/sample_c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/setup.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ALI-conditional/theanorc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../CNN3D/.gitignore" afterPath="$PROJECT_DIR$/../CNN3D/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/../CNN3D/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CNN3D/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../cup_generator/.idea/misc.xml" afterPath="$PROJECT_DIR$/../cup_generator/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../cup_generator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cup_generator/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../cup_generator/losses.py" afterPath="$PROJECT_DIR$/../cup_generator/losses.py" />
+      <change beforePath="$PROJECT_DIR$/../cup_generator/readme.md" afterPath="$PROJECT_DIR$/../cup_generator/readme.md" />
+      <change beforePath="$PROJECT_DIR$/../cup_generator/trainer_new.py" afterPath="$PROJECT_DIR$/../cup_generator/trainer_new.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mnist_challenge_voting" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-778">
+              <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common_shapes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/framework/common_shapes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="675" column="0" lean-forward="false" selection-start-line="675" selection-start-column="0" selection-end-line="675" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train_orig.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/train_orig.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+              <folding>
+                <element signature="e#5200#5237#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="denoiser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/denoiser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arg_scope.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3150">
+              <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/client/session.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="1120" column="0" lean-forward="false" selection-start-line="1120" selection-start-column="0" selection-end-line="1120" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pgd_attack.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pgd_attack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>x_batch_adv</find>
+      <find>pre_train_step</find>
+      <find>saver</find>
+      <find>model</find>
+      <find>attack</find>
+      <find>restore</find>
+      <find>denoiser_attack</find>
+      <find>hist</find>
+      <find>grad</find>
+      <find>pre</find>
+      <find>train_step</find>
+      <find>xent</find>
+      <find>denoised_fea</find>
+      <find>y_pred</find>
+      <find>batc</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/eval.py" />
+        <option value="$PROJECT_DIR$/voting.py" />
+        <option value="$PROJECT_DIR$/log.py" />
+        <option value="$PROJECT_DIR$/config.json" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/denoiser.py" />
+        <option value="$PROJECT_DIR$/train_orig.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2225" />
+    <option name="y" value="163" />
+    <option name="width" value="1524" />
+    <option name="height" value="736" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mnist_challenge_voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mnist_challenge_voting" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../models/tutorials/image/AVC_Madry_multiGPU/result/hist/GPU1/GPU1_code" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.train_orig">
+    <configuration name="eval" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mnist_challenge_voting" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eval.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="train_orig" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mnist_challenge_voting" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_orig.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="voting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mnist_challenge_voting" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/voting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.eval" />
+      <item index="1" class="java.lang.String" itemvalue="Python.voting" />
+      <item index="2" class="java.lang.String" itemvalue="Python.train_orig" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.train_orig" />
+        <item index="1" class="java.lang.String" itemvalue="Python.voting" />
+        <item index="2" class="java.lang.String" itemvalue="Python.eval" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="348444ab-c69f-4f29-86d5-31824e0afcdc" name="Default" comment="" />
+      <created>1539317055919</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539317055919</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1984" y="-4" width="1857" height="1085" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13442624" sideWeight="0.4947839" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968128" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3515936" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968128" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968128" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2169399" sideWeight="0.5052161" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29780877" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train_orig.py</url>
+          <line>250</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="62" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>surf1 = np.concatenate([denoised_fea_adv_i, fea_nat_i[:,0:1]], 1)
+surf2 = np.concatenate([denoised_fea_adv_i, fea_nat_i[:,1:2]], 1)
+surf = surf2
+
+from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt
+import numpy as np
+
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.scatter(surf[:,0], surf[:,1], surf[:,2])
+
+ax.set_xlabel('X Label')
+ax.set_ylabel('Y Label')
+ax.set_zlabel('Z Label')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>x_batch, y_batch = mnist.train.next_batch(1000)
+denoiser_x_batch_adv = denoiser_attack.perturb(x_batch, y_batch, sess)
+denoiser_train_dict = {model.x_input: np.concatenate([denoiser_x_batch_adv, x_batch], 0),
+                       model.y_input: y_batch}
+
+
+denoised_fea_adv_i, denoised_fea_nat_i, fea_adv_i, fea_nat_i, dist_adv_i, dist_nat_i, nat_acc_i, adv_acc_i, y_pred_i, y_input_i, _ = \
+    sess.run([denoiser.denoised_fea_adv,
+              denoiser.denoised_fea_nat,
+              model_fea_adv,
+              model_fea_nat,
+              denoiser.dist_adv,
+              denoiser.dist_nat,
+              denoiser.nat_accuracy,
+              denoiser.adv_accuracy,
+              model.y_pred,
+              model.y_input,
+              train_step], denoiser_train_dict)
+
+
+surf1 = np.concatenate([denoised_fea_adv_i, fea_nat_i[:,0:1]], 1)
+surf2 = np.concatenate([denoised_fea_adv_i, fea_nat_i[:,1:2]], 1)
+surf = surf2
+
+from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt
+import numpy as np
+
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.scatter(surf[:,0], surf[:,1], surf[:,2])
+
+ax.set_xlabel('X Label')
+ax.set_ylabel('Y Label')
+ax.set_zlabel('Z Label')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>surf1 = np.concatenate([denoised_fea_adv_i, fea_nat_i[:,0:1]], 1)
+surf2 = np.concatenate([denoised_fea_adv_i, fea_nat_i[:,1:2]], 1)
+
+
+from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt
+import numpy as np
+
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.scatter(surf1[:,0], surf1[:,1], surf1[:,2])
+
+ax.set_xlabel('X Label')
+ax.set_ylabel('Y Label')
+ax.set_zlabel('Z Label')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>surf1 = np.concatenate([denoised_fea_adv_i, fea_nat_i[:,0:1]], 1)
+surf2 = np.concatenate([denoised_fea_adv_i, fea_nat_i[:,1:2]], 1)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>x_batch, y_batch = mnist.train.next_batch(1000)
+denoiser_x_batch_adv = denoiser_attack.perturb(x_batch, y_batch, sess)
+denoiser_train_dict = {model.x_input: np.concatenate([denoiser_x_batch_adv, x_batch], 0),
+                       model.y_input: y_batch}
+
+
+denoised_fea_adv_i, denoised_fea_nat_i, fea_adv_i, fea_nat_i, dist_adv_i, dist_nat_i, nat_acc_i, adv_acc_i, y_pred_i, y_input_i, _ = \
+    sess.run([denoiser.denoised_fea_adv,
+              denoiser.denoised_fea_nat,
+              model_fea_adv,
+              model_fea_nat,
+              denoiser.dist_adv,
+              denoiser.dist_nat,
+              denoiser.nat_accuracy,
+              denoiser.adv_accuracy,
+              model.y_pred,
+              model.y_input,
+              train_step], denoiser_train_dict)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>np.concatenate([denoised_fea_adv_i, fea_nat_i[:,0:1]], 1)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>np.concatenate([denoised_fea_adv_i, fea_nat_i[:,0]], 1)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>x_batch, y_batch = mnist.train.next_batch(100)
+denoiser_x_batch_adv = denoiser_attack.perturb(x_batch, y_batch, sess)
+denoiser_train_dict = {model.x_input: np.concatenate([denoiser_x_batch_adv, x_batch], 0),
+                       model.y_input: y_batch}
+
+
+denoised_fea_adv_i, denoised_fea_nat_i, fea_adv_i, fea_nat_i, dist_adv_i, dist_nat_i, nat_acc_i, adv_acc_i, y_pred_i, y_input_i, _ = \
+    sess.run([denoiser.denoised_fea_adv,
+              denoiser.denoised_fea_nat,
+              model_fea_adv,
+              model_fea_nat,
+              denoiser.dist_adv,
+              denoiser.dist_nat,
+              denoiser.nat_accuracy,
+              denoiser.adv_accuracy,
+              model.y_pred,
+              model.y_input,
+              train_step], denoiser_train_dict)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>x_batch, y_batch = mnist.train.next_batch(1)
+denoiser_x_batch_adv = denoiser_attack.perturb(x_batch, y_batch, sess)
+denoiser_train_dict = {model.x_input: np.concatenate([denoiser_x_batch_adv, x_batch], 0),
+                       model.y_input: y_batch}
+
+dist_adv = []
+dist_nat = []
+nat_acc = []
+adv_acc = []
+denoised_fea_adv = []
+denoised_fea_nat = []
+fea_adv = []
+fea_nat = []
+y_pred = []
+y_input = []
+model_fea_adv, model_fea_nat = tf.split(model.feature, 2)
+for i in range(2000):
+    denoised_fea_adv_i, denoised_fea_nat_i, fea_adv_i, fea_nat_i, dist_adv_i, dist_nat_i, nat_acc_i, adv_acc_i, y_pred_i, y_input_i, _ = \
+        sess.run([denoiser.denoised_fea_adv,
+                  denoiser.denoised_fea_nat,
+                  model_fea_adv,
+                  model_fea_nat,
+                  denoiser.dist_adv,
+                  denoiser.dist_nat,
+                  denoiser.nat_accuracy,
+                  denoiser.adv_accuracy,
+                  model.y_pred,
+                  model.y_input,
+                  train_step], denoiser_train_dict)
+    dist_adv += [dist_adv_i]
+    dist_nat += [dist_nat_i]
+    adv_acc += [adv_acc_i]
+    nat_acc += [nat_acc_i]
+    denoised_fea_adv += [denoised_fea_adv_i]
+    denoised_fea_nat += [denoised_fea_nat_i]
+    fea_nat += [fea_nat_i]
+    fea_adv += [fea_adv_i]
+    y_pred += [y_pred_i]
+    y_input += [y_input_i]
+    print(i, dist_nat_i, dist_adv_i, nat_acc_i, adv_acc_i)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="53" column="13" lean-forward="false" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_orig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="90" column="42" lean-forward="true" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="42" />
+          <folding>
+            <element signature="e#5200#5237#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19854">
+          <caret line="1120" column="0" lean-forward="false" selection-start-line="1120" selection-start-column="0" selection-end-line="1120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pgd_attack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/denoiser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="42" column="14" lean-forward="false" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/denoiser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19854">
+          <caret line="1120" column="0" lean-forward="false" selection-start-line="1120" selection-start-column="0" selection-end-line="1120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pgd_attack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_orig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="101" column="39" lean-forward="false" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
+          <folding>
+            <element signature="e#5200#5237#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="136" column="122" lean-forward="false" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="110" column="9" lean-forward="true" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_fea.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="246" column="0" lean-forward="false" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/framework/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="4283" column="4" lean-forward="false" selection-start-line="4283" selection-start-column="4" selection-end-line="4283" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="663" column="0" lean-forward="false" selection-start-line="663" selection-start-column="0" selection-end-line="663" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/framework/op_def_library.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/init_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="519" column="0" lean-forward="false" selection-start-line="519" selection-start-column="0" selection-end-line="519" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/gradients_impl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-349">
+          <caret line="367" column="4" lean-forward="false" selection-start-line="367" selection-start-column="4" selection-end-line="367" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="1071" column="0" lean-forward="false" selection-start-line="1071" selection-start-column="0" selection-end-line="1071" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/framework/common_shapes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="675" column="0" lean-forward="false" selection-start-line="675" selection-start-column="0" selection-end-line="675" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/training/saver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="1160" column="0" lean-forward="false" selection-start-line="1160" selection-start-column="0" selection-end-line="1160" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="1120" column="0" lean-forward="false" selection-start-line="1120" selection-start-column="0" selection-end-line="1120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11930">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-778">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pgd_attack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/denoiser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_orig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+          <folding>
+            <element signature="e#5200#5237#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
